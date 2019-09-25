@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="#51b46d"
     android:padding="50dp"
+    android:id="@+id/relativeLayout"
     tools:context=".MainActivity">
 
     <TextView
@@ -48,6 +49,7 @@
         android:layout_marginLeft="0dp"
         android:layout_marginBottom="-1dp"
         android:background="@android:color/white"
-        android:text="Show Another Fun Fact" />
+        android:text="Show Another Fun Fact"
+        android:textColor="#51b46d" />
 
 </RelativeLayout>
